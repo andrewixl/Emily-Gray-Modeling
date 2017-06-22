@@ -11,12 +11,41 @@
 <body>
   <div id="wrapper">
     <header>
-      <h1>Emily Gray Modeling</h1>
+      <h1>Model</h1>
       <h2 onClick="parent.location='Contact.html'">Contact Me</h2>
       <h2 onClick="parent.location='book.html'">Book Now</h2>
       <h2 onClick="parent.location='about.html'">About Me</h2>
       <h2 onClick="parent.location='Home.html'">Home</h2>
     </header>
+    <div id="main">
+      <h1>Contact Me</h1>
+      <form class="contactme" action="index.html" method="post">
+        <label id = "messagelabel" for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="First Name" value="">
+        <br>
+
+        <label id = "messagelabel" for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="Last Name" value="">
+        <br>
+
+        <label id = "messagelabel" for="email">Email Address:</label>
+        <input type="email" id="email" name="Email" value="">
+        <br>
+
+        <label id = "messagelabel" for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="Phone Number" value="">
+        <br>
+
+        <label id = "messagelabel" for="message">Message:</label>
+        <textarea id = "message" name="message" rows="5" cols="40"></textarea>
+        <br>
+
+        <button id = "submitbutton" type="submit" name="submit"><strong>Submit</strong></button>
+      </form>
+      <div class="connectwithus">
+
+      </div>
+    </div>
   </div>
 </body>
 </html>
