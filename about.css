@@ -1,0 +1,33 @@
+#wrapper{
+  height: auto;
+  width: auto;
+  position: relative;
+  /*background-image: url("https://scontent-lax3-2.cdninstagram.com/t51.2885-15/e35/15259088_1276699682387875_1238599792855089152_n.jpg");*/
+  background: radial-gradient(circle, black, grey, grey, white, white)
+}
+header{
+ width: auto;
+ height: 100px;
+ background-color: black;
+ position: fixed;
+ top: 0px;
+ right: 0px;
+ left: 0px;
+ bottom: 0px;
+}
+header>h1{
+  font-family: 'Homemade Apple', cursive;
+  color: white;
+  display: inline-block;
+  position: relative;
+  margin-left: 25px;
+}
+header>h2{
+  color: white;
+  margin-left: 20px;
+  display: inline-block;
+  position: relative;
+  margin-right: 25px;
+  margin-top: 35px;
+  float: right;
+}
