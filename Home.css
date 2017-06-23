@@ -3,7 +3,8 @@
   width: auto;
   position: relative;
   /*background-image: url("https://scontent-lax3-2.cdninstagram.com/t51.2885-15/e35/15259088_1276699682387875_1238599792855089152_n.jpg");*/
-  background: radial-gradient(circle, black, grey, grey, white, white)
+  /*background: radial-gradient(circle, black, grey, grey, white, white)*/
+  background-color: white;
 }
 header{
  width: auto;
@@ -24,6 +25,7 @@ header>h1{
 }
 header>h2{
   color: white;
+  font-family: 'Kanit', sans-serif;
   margin-left: 20px;
   display: inline-block;
   position: relative;
@@ -32,14 +34,44 @@ header>h2{
   float: right;
 }
 #about{
-
+  height: auto;
+  width: 1216px;
+  background: white;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid black;
 }
 #emilyphoto{
-  height: 467.22px;
+  height: 412px;
   width: 600px;
   border: 3px solid white;
-  margin-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 100px;
+  display: inline-block;
+}
+.aboutbox{
+  height: 412px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+.aboxtop{
+  text-align: center;
+  height: 75px;
+  width: 600px;
+  background-color: white;
+  border: 2px solid black;
+  display: inline-block;
+}
+.aboxbottom{
+  height: 337px;
+  width: 600px;
+  background-color: black;
+  border: 2px solid black;
+  display: inline-block;
 }
 
 /*font-family: 'Dancing Script', cursive;

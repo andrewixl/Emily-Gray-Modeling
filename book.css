@@ -24,6 +24,7 @@ header>h1{
 }
 header>h2{
   color: white;
+  font-family: 'Kanit', sans-serif;
   margin-left: 20px;
   display: inline-block;
   position: relative;
