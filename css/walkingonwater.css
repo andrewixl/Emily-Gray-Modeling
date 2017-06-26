@@ -1,0 +1,129 @@
+#wrapper{
+  height: auto;
+  width: auto;
+  position: relative;
+  /*background-image: url("https://scontent-lax3-2.cdninstagram.com/t51.2885-15/e35/15259088_1276699682387875_1238599792855089152_n.jpg");*/
+  background: radial-gradient(circle, black, grey, grey, white, white)
+}
+header{
+ width: auto;
+ height: 100px;
+ background-color: black;
+ position: fixed;
+ top: 0px;
+ right: 0px;
+ left: 0px;
+ bottom: 0px;
+ z-index: 1;
+}
+header>h1{
+  font-family: 'Homemade Apple', cursive;
+  color: white;
+  display: inline-block;
+  position: relative;
+  margin-left: 25px;
+}
+header>h2, header>a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  width: auto;
+  margin-left: 20px;
+  display: inline-block;
+  position: relative;
+  margin-right: 25px;
+  margin-top: 15px;
+  float: right;
+}
+main{
+  height: auto;
+  width: 1216px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  margin-top: 115px;
+}
+.portfolio{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  background: repeating-linear-gradient(-45deg, #c3cbd8, white 5px);
+}
+.portfolioheader>h3{
+  display: inline-block;
+  margin-left: 25px;
+}
+.pastshoots{
+  width: auto;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  left: 25px;
+  color: black;
+}
+.image{
+  height: auto;
+  width: 380px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  border: 3px solid #363636;
+}
+.imagedoubleline{
+  height: auto;
+  width: 575px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  border: 3px solid #363636;
+}
+.imagesingleline{
+  height: auto;
+  width: 575px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  border: 3px solid #363636;
+  position: relative;
+  left: 300px;
+}
+.portfoliotext{
+  width: 250px;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  position: relative;
+  top: -15px;
+  left: 75px;
+  font-style: italic;
+}
+.portfoliotextdouble{
+  width: 300px;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  position: relative;
+  top: -15px;
+  left: 130px;
+  font-style: italic;
+}
+.portfoliotextsingle{
+  width: 300px;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  position: relative;
+  top: -15px;
+  left: 440px;
+  font-style: italic;
+}
+.portfolio>p{
+  color: grey;
+  font-size: 12px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 610px;
+}
