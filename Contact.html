@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="css/Contact.css">
   <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+  <script type="text/javascript" src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+  <!-- <script type="text/javascript" src="js/contact.js"></script> -->
   <title>Emily Gray</title>
 </head>
 <body>
@@ -15,36 +17,45 @@
       <h1>Model</h1>
       <a href="Contact.html"><h2>Contact Me</h2></a>
       <a href="book.html"><h2>Book Now</h2></a>
-      <a href="portfolio.html"><h2>Portfolio</h2></a>
+      <a id = "portfoliotab" href="portfolio.html"><h2>Portfolio</h2></a>
+      <div class="portfoliodropdown">
+        <a href="portfolio.html"><h2>Through the Leaves</h2></a>
+        <a href="portfolio.html"><h2>Walking on Water</h2></a>
+        <a href="portfolio.html"><h2>On the Other Side</h2></a>
+        <a href="portfolio.html"><h2>Moments</h2></a>
+        <a href="portfolio.html"><h2>Coax the Cold Right Out</h2></a>
+        <a href="portfolio.html"><h2>More</h2></a>
+      </div>
       <a href="about.html"><h2>About</h2></a>
       <a href="index.html"><h2>Home</h2></a>
     </header>
     <div id="main">
       <h1 id = "contact">Contact Me</h1>
       <form class="contactme" action="index.html" method="post">
-        <label id = "messagelabel" for="firstname">First Name:</label>
+        <label id = "messagelabel" for="firstname"><span class = "astrik">*</span>First Name:</label>
         <input type="text" id="firstname" name="First Name" value="">
         <br>
 
-        <label id = "messagelabel" for="lastname">Last Name:</label>
+        <label id = "messagelabel" for="lastname"><span class = "astrik">*</span>Last Name:</label>
         <input type="text" id="lastname" name="Last Name" value="">
         <br>
 
-        <label id = "messagelabel" for="email">Email Address:</label>
+        <label id = "messagelabel" for="email"><span class = "astrik">*</span>Email Address:</label>
         <input type="email" id="email" name="Email" value="">
         <br>
 
-        <label id = "messagelabel" for="phone">Phone Number:</label>
+        <label id = "messagelabel" for="phone"><span class = "astrik">*</span>Phone Number:</label>
         <input type="text" id="phone" name="Phone Number" value="">
         <br>
 
-        <label id = "messagelabel" for="message">Message:</label>
+        <label id = "messagelabel" for="message"><span class = "astrik">*</span>Message:</label>
         <textarea id = "message" name="message" rows="5" cols="40"></textarea>
         <br>
 
-        <button id = "submitbutton" type="submit" name="submit"><strong>Submit</strong></button>
+        <button id = "submitbutton" type="button" name="submit"><strong>Submit</strong></button>
       </form>
-      <h1>Stay Connected</h1>
+      <h5 id = "error">Invalid Entries, Fix (*), Before Continuing</h5>
+      <h1 id = "connected">Stay Connected</h1>
       <div class="connectwithus">
         <a href="https://www.instagram.com/msemgray/"><img class = "sociallogo" src="https://8ukz7a.bn1301.livefilestore.com/y4mStYP2ae_H3VJ9sqoxCiNTWSuDVxrBjMo_iopG0apopooifaH9eaCvtm0QYTnW7Q7zyvTEZSPNPRL2iIDvicpAIrFNeLAMgibPflfVPTbZuGAnYXWrC1dI_lz61plG-1dSfZZOFMYJVO1W0YsuhoX51zs6O5BcP4xLfZ7cxnTTJ9TLxL2ck73iUce_4RmuLb8ilsnwtVFP8icJMF-tpXjYg?width=240&height=240&cropmode=none" alt = "Instagram"/></a>
         <a href="https://www.facebook.com/"><img class = "sociallogo" src="https://8ulpdw.bn1301.livefilestore.com/y4mzekMDj57LdbS1edcQz0A8pmeEVCQYvlnYWFSgJ_Vj96iWt8pZRgqOy-vhDQFK4kG4qz-r0xwNzDRHK8fHtXjbc5v-gpxNUrBKEpotCWN35dOtuFxbebaKAQIboKWShN20UADypRW24m_kUs4PYvMjNNbM_76cC1vRpbc8-f0DmK7jAM9sN1_mHoWM08MxH5T2I7tixFh1kxlIRTsBiTHLg?width=240&height=240&cropmode=none" alt = "Facebook"/></a>
@@ -53,5 +64,6 @@
       </div>
     </div>
   </div>
+  <script type="text/javascript" src="js/contact.js"></script>
 </body>
 </html>
