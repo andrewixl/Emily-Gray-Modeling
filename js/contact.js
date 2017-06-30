@@ -12,14 +12,14 @@ $(document).ready(function(){
     $(this).css("background-color", "black");
     $(this).css("color", "white");
   });
-  $("header>#portfoliotab").hover(function(){
+  /*$("header>#portfoliotab").hover(function(){
     $(".portfoliodropdown>a").slideDown("slow");
     }, function(){
       $(".portfoliodropdown, header>#portfoliotab" ).hover(function(){
         }, function(){
         $(".portfoliodropdown>a").slideUp("slow");
       });
-    });
+    });*/
   /*$("header>#portfoliotab, .portfoliodropdown").hover(function(){
     $(".portfoliodropdown>a").slideDown("slow");
     }, function(){

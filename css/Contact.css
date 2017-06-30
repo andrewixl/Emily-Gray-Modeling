@@ -27,13 +27,14 @@ header>h2, header>a{
   text-decoration: none;
   color: white;
   font-family: 'Kanit', sans-serif;
-  width: auto;
+  width: 125px;
   margin-left: 20px;
   display: inline-block;
   position: relative;
-  margin-right: 25px;
+  margin-right: 5px;
   margin-top: 15px;
   float: right;
+  text-align: center;
 }
 .portfoliodropdown{
   width: 150px;

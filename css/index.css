@@ -2,9 +2,7 @@
   height: auto;
   width: auto;
   position: relative;
-  /*background-image: url("https://scontent-lax3-2.cdninstagram.com/t51.2885-15/e35/15259088_1276699682387875_1238599792855089152_n.jpg");*/
   background: radial-gradient(circle, black, grey, grey, white, white)
-  /*background-color: white;*/
 }
 header{
  width: auto;
@@ -15,6 +13,7 @@ header{
  right: 0px;
  left: 0px;
  bottom: 0px;
+ z-index: 1;
 }
 header>h1{
   font-family: 'Homemade Apple', cursive;
@@ -27,13 +26,14 @@ header>h2, header>a{
   text-decoration: none;
   color: white;
   font-family: 'Kanit', sans-serif;
-  width: auto;
+  width: 125px;
   margin-left: 20px;
   display: inline-block;
   position: relative;
-  margin-right: 25px;
+  margin-right: 5px;
   margin-top: 15px;
   float: right;
+  text-align: center;
 }
 #about{
   height: auto;

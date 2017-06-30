@@ -14,6 +14,7 @@ header{
  right: 0px;
  left: 0px;
  bottom: 0px;
+ z-index: 1;
 }
 header>h1{
   font-family: 'Homemade Apple', cursive;
@@ -60,37 +61,68 @@ main{
   width: auto;
   height: auto;
   display: inline-block;
-  position: relative;
-  left: 25px;
   color: black;
+  margin: 8px;
+  vertical-align: top;
 }
-.image{
+.landscape3{
+  height: 250px;
+  width: auto;
+  display: inline-block;
+
+  vertical-align: top;
+  border: 3px solid #363636;
+}
+.landscape2{
   height: auto;
-  width: 211px;
+  width: 560px;
   display: inline-block;
   position: relative;
   vertical-align: top;
   border: 3px solid #363636;
 }
-.portfoliotext{
-  width: 220px;
+.imagesingleline{
   height: auto;
-  /*display: inline-block;*/
-  /*float: right;*/
-  margin: 5px;
-}
-.portfoliotext>p{
+  width: 575px;
+  display: inline-block;
   position: relative;
-  color: black;
+  vertical-align: top;
+  border: 3px solid #363636;
+  position: relative;
+  left: 300px;
+}
+.portfoliotext{
+  width: 250px;
+  height: auto;
+  text-align: center;
+  position: relative;
   top: -15px;
+  font-style: italic;
+}
+.portfoliotextdouble{
+  width: 300px;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  position: relative;
+  top: -15px;
+  left: 130px;
+  font-style: italic;
+}
+.portfoliotextsingle{
+  width: 300px;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  position: relative;
+  top: -15px;
+  left: 440px;
+  font-style: italic;
 }
 .portfolio>p{
   color: grey;
-  /*position: relative;*/
-  /*left: 870px;*/
   font-size: 12px;
-  /*top: 8px;*/
   float: right;
   margin-right: 15px;
-  margin-top: 280px;
+  margin-top: 610px;
 }
